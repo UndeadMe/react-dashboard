@@ -1,0 +1,100 @@
+.navigation-bar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.navigation-menu {
+    display: flex;
+    align-items: center;
+    column-gap: 35px;
+}
+
+.navigation-menu-link {
+    text-decoration: none;
+    color: #cacaca;
+}
+
+.search-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 0 10px 0 18px;
+    border-radius: 13px;
+    background-color: #2F7FFF;
+    box-shadow: 0 5px 20px rgba(0, 85, 223, 0.3);
+    border: 1px solid rgb(255, 255, 255, 0.03);
+}
+
+.search-box::before {
+    top: -1px;
+}
+
+.search-box::after {
+    bottom: -1px;
+}
+
+.search-box::before, .search-box::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgb(255, 255, 255, 0.2), transparent);
+}
+
+.search-input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    height: 100%;
+    width: 100%;
+    padding: 15px 0;
+    font-size: 1.1rem;
+    color: #f1f5fc;
+    margin: 0 10px 0 15px;
+}
+
+.search-input::placeholder {
+    font-size: 1rem;
+    color: #c4c9d1;
+}
+
+.mac-command-key {
+    display: flex;
+    align-items: center;
+    padding: 7px 18px;
+    column-gap: 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    color: #2F7FFF;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.icons-box {
+    display: flex;
+    column-gap: 50px;
+}
+
+.profile-box {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.profile {
+    width: 50px;
+    border-radius: 100%;
+    border: 2px solid #e0e0e0;
+}
