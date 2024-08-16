@@ -10,6 +10,13 @@ export default function Root() {
             <Container>
                 <header>
                     <NavigationBar />
+
+                    <div className={styles["menu-container"]}>
+                        <div>
+                            <h1 className={styles["welcome-title"]}>Welcome Back, Alex</h1>
+                            <h6>this is your monthly overview report</h6>
+                        </div>
+                    </div>
                 </header>
             </Container>
         </header>
