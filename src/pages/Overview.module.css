@@ -4,3 +4,36 @@
     margin-top: 100px;
     column-gap: 80px;
 }
+.chart-wrap {
+    background-color: #fff;
+    box-shadow: 0 5px 10px rgb(218, 218, 218, 0.5);
+    margin-top: 50px;
+    padding: 30px;
+    border-radius: 30px;
+}
+.chart-wrap__headers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.chart-wrap__headers h1 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.chart-wrap__headers h5 {
+    display: flex;
+    column-gap: 10px;
+    margin-top: 15px;
+}
+:global(.red-dot) {
+    width: 15px;
+    height: 15px;
+    background-color: #ff4b4b;
+    border-radius: 100%;
+}
+:global(.green-dot) {
+    width: 15px;
+    height: 15px;
+    background-color: #38cf38;
+    border-radius: 100%;
+}

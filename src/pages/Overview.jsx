@@ -32,6 +32,21 @@ export default function Overview() {
                     sign={<MoneySend className="total-income-statement-box__sign-red" variant="Bold"/>}
                 />
             </div>
+
+            <div className={styles["chart-wrap"]}>
+                <div className={styles["chart-wrap__headers"]}>
+                    <div>
+                        <h1>Balance Overview</h1>
+                        <h5>
+                            <span className="green-dot"></span> Total Income
+                            <span className="red-dot" style={{ marginLeft: "20px" }}></span> Total Spending
+                        </h5>
+                    </div>
+                    <button> {/* // todo: add date picker  */} 
+                        Last 6 month
+                    </button>
+                </div>
+            </div>
         </>
     )
 }
