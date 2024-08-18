@@ -1,4 +1,4 @@
-import { createBrowserRouter } from "react-router-dom"
+import { createBrowserRouter, Navigate } from "react-router-dom"
 
 import Root from '../pages/Root'
 import Overview from '../pages/Overview'
@@ -28,6 +28,9 @@ const router = createBrowserRouter([
         children: [
             {
                 index: true,
+                element: <Overview />
+            }
+            ,{
                 path: OverviewPath,
                 element: <Overview />
             },

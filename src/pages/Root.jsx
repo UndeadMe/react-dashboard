@@ -6,6 +6,11 @@ import RouteMenu from '../components/RouteMenu'
 
 import { ROUTES } from '../router/routerConfig'
 
+import { Outlet } from 'react-router-dom';
+
+
+
+
 export default function Root() {
     return (
         <header className={styles.header}>
@@ -21,6 +26,8 @@ export default function Root() {
 
                         <RouteMenu routes={ROUTES} />
                     </div>
+
+                    <Outlet />
                 </header>
             </Container>
         </header>
