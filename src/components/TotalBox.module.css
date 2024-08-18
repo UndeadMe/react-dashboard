@@ -1,0 +1,48 @@
+.total-income-statement-box {
+    background: #FFFFFF;
+    padding: 30px;
+    border-radius: 20px;
+    width: 100%;
+    box-shadow: 0 5px 20px rgb(141, 141, 141, 0.2);
+}
+.total-income-statement-box__headers, .total-income-statement-box__amounts {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.total-income-statement-box__amounts {
+    margin-top: 40px;
+}
+.total-income-statement-box__headers h1 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.total-income-statement-box__headers h1 ~ h5 {
+    color: #aaaaaa;
+    margin-top: 15px;
+}
+.total-income-statement-box__amounts h2 {
+    font-size: 1.9rem;
+    font-weight: 600;
+}
+.total-income-statement-box__amounts h6 {
+    margin-top: 15px;
+    color: #4f98f8;
+    font-weight: 500;
+}
+:global(.total-income-statement-box__sign-blue), :global(.total-income-statement-box__sign-green), :global(.total-income-statement-box__sign-red) {
+    padding: 20px;
+    border-radius: 15px;
+}
+:global(.total-income-statement-box__sign-blue) {
+    background-color: #e6efff;
+    color: #0059ff;
+}
+:global(.total-income-statement-box__sign-red) {
+    background-color: #ffe2e2;
+    color: #ff7a7a;
+}
+:global(.total-income-statement-box__sign-green) {
+    background-color: #e5fde5;
+    color: #3cc95a;
+}
