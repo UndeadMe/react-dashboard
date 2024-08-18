@@ -1,14 +1,27 @@
 .menu {
     display: flex;
-    column-gap: 40px;
-    padding-bottom: 20px;
+}
+
+.menu li {
+    padding: 0 20px 20px 20px;
     border-bottom: 2px solid rgb(255, 255, 255, 0.3);
 }
-.menu-route-item {
+
+.menu li:first-child {
+    padding-left: 0;
+}
+
+.menu li:last-child {
+    padding-right: 0;
+}
+
+.menu a {
     text-decoration: none;
     color: #b8b8b8;
 }
 
-.menu-route-item.active {
+.menu a:global(.active) {
     color: #FFFFFF;
+    border-bottom: 2px solid #FFFFFF;
+    padding-bottom: 17px;
 }
