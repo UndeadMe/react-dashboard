@@ -1,6 +1,7 @@
 import styles from './TotalBox.module.css'
 
-export default function TotalBox({ title, secTitle, totalAmount, incomeStatement, sign }) {
+export default function TotalBox({ title, secTitle, totalAmount, incomeStatement, sign, type }) {
+    console.log(styles[`incomestatement-${type}`])
     return (
         <div className={styles["total-income-statement-box"]}>
             <div className={styles["total-income-statement-box__headers"]}>
@@ -13,7 +14,7 @@ export default function TotalBox({ title, secTitle, totalAmount, incomeStatement
             <div className={styles["total-income-statement-box__amounts"]}>
                 <div>
                     <h2>{ totalAmount }</h2>
-                    <h6>{ incomeStatement }</h6>
+                    <h6 className={styles[`incomestatement-${type}`]}>{ incomeStatement }</h6>
                 </div>
                 {/* // Todo icome statement photo */}
             </div>

@@ -17,20 +17,23 @@ export default function Overview() {
                     totalAmount="$982.000,90"
                     incomeStatement="+ 16% Last Year"
                     sign={<WalletMoney className="total-income-statement-box__sign-blue" variant="Bold"/>}
+                    type="blue"
                 />
                 <TotalBox  //Todo u can use json-server for making this app like a real world react application 
-                    title="Total Balance"
-                    secTitle="2 July-24 September 2023" //Todo provide a real date
-                    totalAmount="$982.000,90"
-                    incomeStatement="+ 16% Last Year"
+                    title="Total Income"
+                    secTitle="9 July-24 September 2023" //Todo provide a real date
+                    totalAmount="$854.348,00"
+                    incomeStatement="+ 12% Last Month"
                     sign={<UsdCoin className="total-income-statement-box__sign-green" variant="Bold"/>}
+                    type="green"
                 />
                 <TotalBox  //Todo u can use json-server for making this app like a real world react application 
-                    title="Total Balance"
-                    secTitle="2 July-24 September 2023" //Todo provide a real date
-                    totalAmount="$982.000,90"
-                    incomeStatement="+ 16% Last Year"
+                    title="Total Spending"
+                    secTitle="24 July-24 September 2023" //Todo provide a real date
+                    totalAmount="$982.000,00"
+                    incomeStatement="- 10% Last Year"
                     sign={<MoneySend className="total-income-statement-box__sign-red" variant="Bold"/>}
+                    type="red"
                 />
             </div>
 

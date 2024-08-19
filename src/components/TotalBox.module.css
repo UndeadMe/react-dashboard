@@ -27,7 +27,6 @@
 }
 .total-income-statement-box__amounts h6 {
     margin-top: 15px;
-    color: #4f98f8;
     font-weight: 500;
 }
 :global(.total-income-statement-box__sign-blue), :global(.total-income-statement-box__sign-green), :global(.total-income-statement-box__sign-red) {
@@ -45,4 +44,13 @@
 :global(.total-income-statement-box__sign-green) {
     background-color: #e5fde5;
     color: #3cc95a;
+}
+.incomestatement-green {
+    color: #3cc95a;
+}
+.incomestatement-red {
+    color: #ff7a7a;
+}
+.incomestatement-blue {
+    color: #0059ff;
 }
