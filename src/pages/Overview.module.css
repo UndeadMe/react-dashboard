@@ -8,8 +8,8 @@
     background-color: #fff;
     box-shadow: 0 5px 10px rgb(218, 218, 218, 0.5);
     margin-top: 50px;
-    padding: 30px;
     border-radius: 30px;
+    padding: 30px;
 }
 .chart-wrap__headers {
     display: flex;

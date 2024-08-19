@@ -1,6 +1,7 @@
 import { WalletMoney, MoneySend, UsdCoin } from 'iconsax-react'
 
 import TotalBox from '../components/TotalBox'
+import Chart from '../components/Chart'
 
 import styles from './Overview.module.css'
 
@@ -8,7 +9,7 @@ import styles from './Overview.module.css'
 
 export default function Overview() {
     return (
-        <>
+        <div style={{ paddingBottom: "100px" }}>
             <div className={styles["total-boxes"]}>
                 <TotalBox  //Todo u can use json-server for making this app like a real world react application 
                     title="Total Balance"
@@ -46,7 +47,9 @@ export default function Overview() {
                         Last 6 month
                     </button>
                 </div>
+
+                <Chart />
             </div>
-        </>
+        </div>
     )
 }
