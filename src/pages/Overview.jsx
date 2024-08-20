@@ -3,6 +3,8 @@ import { WalletMoney, MoneySend, UsdCoin } from 'iconsax-react'
 import TotalBox from '../components/TotalBox'
 import Chart from '../components/Chart'
 
+import { More } from 'iconsax-react'
+
 import styles from './Overview.module.css'
 
 
@@ -37,21 +39,46 @@ export default function Overview() {
                 />
             </div>
 
-            <div className={styles["chart-wrap"]}>
-                <div className={styles["chart-wrap__headers"]}>
-                    <div>
-                        <h1>Balance Overview</h1>
-                        <h5>
-                            <span className="green-dot"></span> Total Income
-                            <span className="red-dot" style={{ marginLeft: "20px" }}></span> Total Spending
-                        </h5>
+            <div className={styles.main}>
+                <div className={styles["chart-wrap"]}>
+                    <div className={styles["chart-wrap__headers"]}>
+                        <div>
+                            <h1>Balance Overview</h1>
+                            <h5>
+                                <span className="green-dot"></span> Total Income
+                                <span className="red-dot" style={{ marginLeft: "20px" }}></span> Total Spending
+                            </h5>
+                        </div>
+                        <button> {/* // todo: add date picker  */} 
+                            Last 6 month
+                        </button>
                     </div>
-                    <button> {/* // todo: add date picker  */} 
-                        Last 6 month
-                    </button>
+
+                    <Chart />
                 </div>
 
-                <Chart />
+                <div className={styles['spending-wrap']}>
+                    <div className={styles["spending-wrap__header"]}>
+                        <h1 className={styles["spending-wrap__header-title"]}>All Spending</h1>
+                        <More size="28" />
+                    </div>
+                    <div className={styles["spending-wrap__header-amounts"]}>
+                        <div className={styles["spending-wrap__header-amount-box"]}>
+                            <h3>Weekly</h3>
+                            <h6>$874.<span>00</span></h6>
+                        </div>
+                        <div className={styles["spending-wrap__header-amount-divider"]}></div>
+                        <div className={styles["spending-wrap__header-amount-box"]}>
+                            <h3>Monthly</h3>
+                            <h6>$8.985.<span>56</span></h6>
+                        </div>
+                        <div className={styles["spending-wrap__header-amount-divider"]}></div>
+                        <div className={styles["spending-wrap__header-amount-box"]}>
+                            <h3>Yearly</h3>
+                            <h6>$28.985.56.<span>00</span></h6>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     )

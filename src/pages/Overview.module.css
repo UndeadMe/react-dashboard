@@ -2,14 +2,26 @@
     display: flex;
     justify-content: space-between;
     margin-top: 100px;
-    column-gap: 80px;
+    column-gap: 50px;
 }
-.chart-wrap {
+.main {
+    width: 100%;
+    display: flex;
+    column-gap: 50px;
+}
+.chart-wrap, .spending-wrap {
     background-color: #fff;
     box-shadow: 0 0 10px rgb(218, 218, 218, 0.5);
     margin-top: 50px;
     border-radius: 30px;
     padding: 30px;
+}
+.chart-wrap {
+    width: 100%;
+}
+.spending-wrap {
+    width: 740px;
+    padding: 40px;
 }
 .chart-wrap__headers {
     display: flex;
@@ -36,4 +48,29 @@
     height: 15px;
     background-color: #38cf38;
     border-radius: 100%;
+}
+.spending-wrap__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.spending-wrap__header-title {
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+.spending-wrap__header-amounts {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.spending-wrap__header-amount-box h3 {
+    color: #b8b8b8;
+    margin-bottom: 10px;
+}
+.spending-wrap__header-amount-box h6 {
+    font-weight: bold;
+}
+.spending-wrap__header-amount-box h6 span {
+    font-size: 0.7rem;
+    color: #b8b8b8;
 }
