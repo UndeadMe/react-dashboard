@@ -114,3 +114,33 @@
 .third-circular {
     background-image: -webkit-linear-gradient(50deg, #eef5f7 50%, transparent  50%), -webkit-linear-gradient(right, lightblue  50%, #eef5f7 50%);
 }
+.total-income-percent-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.total-income-percent-item div {
+    display: flex;
+    align-items: center;
+}
+.total-income-percent-item:not(:last-child) {
+    margin-bottom: 20px;
+}
+.total-income-percent-item-circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.total-income-percent-item-circle.blue {
+    background-color: blue;
+}
+.total-income-percent-item-circle.orange {
+    background-color: #ec7027;
+}
+.total-income-percent-item-circle.lightblue {
+    background-color: lightblue;
+}
+.total-income-percent-item span {
+    font-weight: bolder;
+}

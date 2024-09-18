@@ -62,6 +62,7 @@ export default function Overview() {
                         <h1 className={styles["spending-wrap__header-title"]}>All Spending</h1>
                         <More size="28" />
                     </div>
+                    
                     <div className={styles["spending-wrap__header-amounts"]}>
                         <div className={styles["spending-wrap__header-amount-box"]}>
                             <h3>Weekly</h3>
@@ -78,6 +79,7 @@ export default function Overview() {
                             <h6>$28.985.56.<span>00</span></h6>
                         </div>
                     </div>
+                    
                     <div className={styles["circular-chart"]}>
                         <div className={styles["overlay"]}>
                             <div className={`${styles["circular-chart-inner"]} ${styles["second-circular"]}`}>
@@ -92,6 +94,30 @@ export default function Overview() {
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                    
+                    <div className={styles["total-income-percents"]}>
+                        <div className={styles["total-income-percent-item"]}>
+                            <div>
+                                <div className={`${styles["total-income-percent-item-circle"]} ${styles["blue"]}`}></div>
+                                Workspace
+                            </div>
+                            <span>45%</span>
+                        </div>
+                        <div className={styles["total-income-percent-item"]}>
+                            <div>
+                            <div className={`${styles["total-income-percent-item-circle"]} ${styles["orange"]}`}></div>
+                                Employee Salary
+                            </div>
+                            <span>52%</span>
+                        </div>
+                        <div className={styles["total-income-percent-item"]}>
+                            <div>
+                            <div className={`${styles["total-income-percent-item-circle"]} ${styles["lightblue"]}`}></div>
+                                Shopping
+                            </div>
+                            <span>24%</span>
                         </div>
                     </div>
                 </div>
