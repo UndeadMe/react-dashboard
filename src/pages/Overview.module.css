@@ -74,3 +74,43 @@
     font-size: 0.7rem;
     color: #b8b8b8;
 }
+.circular-chart {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+    display: flex;
+    background-image: -webkit-linear-gradient(90deg, #eeeef3 50%, transparent  50%), -webkit-linear-gradient(right, blue  50%, #eeeef3 50%);
+}
+.overlay {
+    border-radius: 50%;
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    background: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    line-height: 25px;
+}
+.overlay h1 {
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.overlay h3 {
+    text-transform: capitalize;
+}
+.circular-chart-inner {
+    border-radius: 50%;
+    width: 85%;
+    height: 85%;
+    margin: auto;
+    display: flex;
+}
+.second-circular {
+    background-image: -webkit-linear-gradient(150deg, #eee1d9 50%, transparent  50%), -webkit-linear-gradient(bottom, #ec7027  130%, #eee1d9 50%);
+}
+.third-circular {
+    background-image: -webkit-linear-gradient(50deg, #eef5f7 50%, transparent  50%), -webkit-linear-gradient(right, lightblue  50%, #eef5f7 50%);
+}

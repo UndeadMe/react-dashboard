@@ -78,6 +78,22 @@ export default function Overview() {
                             <h6>$28.985.56.<span>00</span></h6>
                         </div>
                     </div>
+                    <div className={styles["circular-chart"]}>
+                        <div className={styles["overlay"]}>
+                            <div className={`${styles["circular-chart-inner"]} ${styles["second-circular"]}`}>
+                                <div className={styles["overlay"]}>
+                                    <div className={`${styles["circular-chart-inner"]} ${styles["third-circular"]}`}>
+                                        <div className={styles["overlay"]}>
+                                            <div>
+                                                <h1>$524</h1>
+                                                <h5>total spend</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
