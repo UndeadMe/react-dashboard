@@ -16,7 +16,9 @@ export default function TotalBox({ title, secTitle, totalAmount, incomeStatement
                     <h2>{ totalAmount }</h2>
                     <h6 className={styles[`incomestatement-${type}`]}>{ incomeStatement }</h6>
                 </div>
-                {/* // Todo icome statement photo */}
+                <div className={styles["income-chart"]}>
+                    <img src="/img/income-chart.png" alt="" />
+                </div>
             </div>
         </div>
     )
