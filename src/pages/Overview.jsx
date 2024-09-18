@@ -3,7 +3,7 @@ import { WalletMoney, MoneySend, UsdCoin } from 'iconsax-react'
 import TotalBox from '../components/TotalBox'
 import Chart from '../components/Chart'
 
-import { More } from 'iconsax-react'
+import { More, Calendar } from 'iconsax-react'
 
 import styles from './Overview.module.css'
 
@@ -49,8 +49,9 @@ export default function Overview() {
                                 <span className="red-dot" style={{ marginLeft: "20px" }}></span> Total Spending
                             </h5>
                         </div>
-                        <button> {/* // todo: add date picker  */} 
+                        <button className={styles["calendar-btn"]}> {/* // todo: add date picker  */} 
                             Last 6 month
+                            <Calendar size="30" color="#000" />
                         </button>
                     </div>
 
