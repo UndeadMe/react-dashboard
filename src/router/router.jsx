@@ -28,7 +28,7 @@ const router = createBrowserRouter([
         children: [
             {
                 index: true,
-                element: <Navigate to="/overview" replace />
+                element: <Navigate to="/overview" />
             }
             ,{
                 path: OverviewPath,
