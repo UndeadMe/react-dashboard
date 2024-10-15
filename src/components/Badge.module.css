@@ -1,0 +1,12 @@
+.badge {
+    padding: 13px 20px;
+    border-radius: 10px;
+}
+.badge.green {
+    background: #E7F7EF;
+    color: #65C781;
+}
+.badge.yellow {
+    background-color: #FFF4CF;
+    color: #E7BB20;
+}

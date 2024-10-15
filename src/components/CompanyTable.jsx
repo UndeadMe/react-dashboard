@@ -1,5 +1,7 @@
 import styles from './CompanyTable.module.css'
 
+import Badge from './Badge'
+
 export default function CompanyTable() {
     return (
         <div className={styles["table"]}>
@@ -27,7 +29,7 @@ export default function CompanyTable() {
                     <div className={styles["table-data"]}>July 11.07.2023</div>
                     <div className={styles["table-data"]}>$624,00.90</div>
                     <div className={styles["table-data"]}>
-                        Completed
+                        <Badge status="green">Completed</Badge>
                     </div>
                 </div>
                 <div className={styles["table-row"]}>		
@@ -46,7 +48,7 @@ export default function CompanyTable() {
                     <div className={styles["table-data"]}>July 11.07.2023</div>
                     <div className={styles["table-data"]}>$624,00.90</div>
                     <div className={styles["table-data"]}>
-                        Completed
+                        <Badge status="yellow">Completed</Badge>
                     </div>
                 </div>
             </div>	
