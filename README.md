@@ -1,7 +1,7 @@
 ## CashFlow
 its a non responsive dashboard template for now. i am implementing this template based on the [Dribbble Design](https://dribbble.com/shots/23704866-Cashflow-Web-App-Design). I get so happy if you wanna contribute to this simple template project for developing it faster as soon as possible.
 
-## Preview The Implemented Pages 
+## Main Page 
 ![image](https://github.com/user-attachments/assets/7554081e-3cbf-461b-b728-baa77d088443)
 
 
