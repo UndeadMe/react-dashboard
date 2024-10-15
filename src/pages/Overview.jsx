@@ -2,6 +2,7 @@ import { WalletMoney, MoneySend, UsdCoin } from 'iconsax-react'
 
 import TotalBox from '../components/TotalBox'
 import Chart from '../components/Chart'
+import CompanyTable from '../components/CompanyTable'
 
 import { More, Calendar } from 'iconsax-react'
 
@@ -123,6 +124,8 @@ export default function Overview() {
                     </div>
                 </div>
             </div>
+
+            <CompanyTable />
         </div>
     )
 }
