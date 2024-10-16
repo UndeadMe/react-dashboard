@@ -37,6 +37,10 @@
     align-items: center;
 }
 
+.table-data {
+    color: #8D99AB;
+}
+
 .header__item {
 	text-transform: uppercase;
 }
@@ -69,6 +73,8 @@
 }
 .company-brand-title h1 {
     margin-bottom: 10px;
+    color: #000000;
+    font-weight: 500;
 }
 .company-brand-title h3 {
     color: rgba(0, 0, 0, 0.3);

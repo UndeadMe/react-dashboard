@@ -27,7 +27,7 @@ export default function CompanyTable() {
                     </div>
                     <div className={styles["table-data"]}>Subscription</div>
                     <div className={styles["table-data"]}>July 11.07.2023</div>
-                    <div className={styles["table-data"]}>$624,00.90</div>
+                    <div className={styles["table-data"]} style={{ color: "#0042FD" }}>$624,00.90</div>
                     <div className={styles["table-data"]}>
                         <Badge status="green">Completed</Badge>
                     </div>
@@ -46,9 +46,9 @@ export default function CompanyTable() {
                     </div>
                     <div className={styles["table-data"]}>Subscription</div>
                     <div className={styles["table-data"]}>July 11.07.2023</div>
-                    <div className={styles["table-data"]}>$624,00.90</div>
+                    <div className={styles["table-data"]} style={{ color: "#00BEFD" }}>$624,00.90</div>
                     <div className={styles["table-data"]}>
-                        <Badge status="yellow">Completed</Badge>
+                        <Badge status="yellow">IN COMPLETED</Badge>
                     </div>
                 </div>
             </div>	
